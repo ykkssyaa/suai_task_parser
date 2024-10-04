@@ -93,26 +93,3 @@ class TaskDiff:
             print(f"!Date: {self.oldTask.date} -> {self.task.date} ", end=sep)
 
         print(f"{self.task.ref}\n")
-
-
-class NotionMapper:
-
-    # TODO: Заполнить функционал
-    def __init__(self, Id, name, tag, status, due, priority, project, url):
-        self.id = Id
-        self.name = name
-        self.tag = tag
-        self.status = status
-        self.due = due
-        self.priority = priority
-        self.project = project
-        self.url = url
-
-    def __int__(self, task: Task):
-        pass
-
-    def toTask(self) -> Task:
-        pass
-
-    def print(self):
-        pass
